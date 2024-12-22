@@ -1,0 +1,59 @@
+.productDetailsSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.productDetailsSwiper .swiper-button-prev,
+.productDetailsSwiper .swiper-button-next {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.productDetailsSwiper .swiper-button-prev:after,
+.productDetailsSwiper .swiper-button-next:after {
+  font-size: 20px;
+}
+
+.productDetailsSwiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+}
+
+.productDetailsSwiper .swiper-pagination-bullet-active {
+  background: #000;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.mySwiper .swiper-button-prev:after,
+.mySwiper .swiper-button-next:after {
+  font-size: 20px;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  opacity: 0.5;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background: #000;
+  opacity: 1;
+}
